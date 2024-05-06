@@ -1,15 +1,15 @@
 {
-   "name": "black_panther-md",
+   "name": "bug_hunter2-md",
    "version": "1.2.8-beta",
    "description": "Multi device whatsapp bot by Ibrahim Tech.",
    "main": "lib/smd.js",
    "type": "commonjs",  
    "scripts": {
-            "run": "pm2 start lib/smd.js --deep-monitoring --attach --name Ibrahim || node lib/smd.js",
-            "start": "pm2 start lib/smd.js --attach --name Ibrahim",
-            "stop": "pm2 stop Ibrahim"
+            "run": "pm2 start lib/smd.js --deep-monitoring --attach --name ULTR4K1D  || node lib/smd.js",
+            "start": "pm2 start lib/smd.js --attach --name ULTR4K1D ",
+            "stop": "pm2 stop ULTR4K1D "
    },
-   "author": "Ibrahim Adams",
+   "author": "ULTR4K1D",
    "license" :"Apache-2.0",
    "dependencies": { 
              "@adiwajshing/keyed-db": "^0.2.4",
