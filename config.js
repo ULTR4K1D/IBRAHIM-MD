@@ -7,24 +7,24 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="ngoyaibraah@gmail.com"
-global.location="Bungoma,Kenya."
+global.email ="jaydenwoods580@gmail.com"
+global.location="Gweru,Zimbabwe ."
 global.mongodb= process.env.MONGODB_URI || ""
 global.allowJids= process.env.ALLOW_JID || "null" 
 global.blockJids= process.env.BLOCK_JID || "120363023983262391@g.us"
 global.DATABASE_URI = process.env.DATABASE_URL || ""
 
-global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Kenya";
+global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Zimbabwe";
 global.github=process.env.GITHUB|| "https://github.com/ibrahimaitech/IBRAHIM-MD/tree/main";
-global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/JE3gJsV15ly9ViU6lgw0GD";
-global.website=process.env.GURL || "https://www.youtube.com/@ibrahimmdgpt" ; 
+global.gurl  =process.env.GURL  || "https://chat.whatsapp.com/LkM9ujv14JVFRMSguJtwEH";
+global.website=process.env.GURL || "https://youtube.com/@UltraPlanetsTechnology?si=IXlg8ehy5lKmjCyI" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/fdeb9bdbfae04a6b62dd4.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
-global.devs = "923184474176" // Developer Contact
+global.devs = "27656607736" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "25471077266";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "27656607736";
 
 
 
@@ -33,7 +33,7 @@ global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]
 global.style = process.env.STYLE   || '1',  // put '1' to "5" here to check bot styles
 global.flush = process.env.FLUSH   || "false"; // Make it "true" if bot not responed
 global.gdbye = process.env.GOODBYE || "false"; 
-global.wlcm  = process.env.WELCOME || "false";  // Make it "false" for disable WELCOME 
+global.wlcm  = process.env.WELCOME || "true";  // Make it "false" for disable WELCOME 
 
 global.warncount = process.env.WARN_COUNT || 3,
 global.disablepm = process.env.DISABLE_PM || "false",
@@ -61,15 +61,15 @@ module.exports = {
 
   menu: process.env.MENU || "A17_MD", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
-  HANDLERS: process.env.PREFIX  || ".",
+  HANDLERS: process.env.PREFIX  || "!",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "V.1.2.8",
   caption : process.env.CAPTION || "©ⁱᵇʳᵃʰⁱᵐ ᵗᵉᶜʰ💥90✴" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "Ibrahim",
+  author : process.env.PACK_AUTHER|| "ULTR4K1D",
   packname: process.env.PACK_NAME || "👑",
   botname : process.env.BOT_NAME  || " 𝗜𝗕𝗥𝗔𝗛𝗜𝗠-ᵐᵈ",
-  ownername:process.env.OWNER_NAME|| "It'x 𝗜𝗕𝗥𝗔𝗛𝗜𝗠",
+  ownername:process.env.OWNER_NAME|| "It'x ULTR4K1D ",
 
   sessionName:process.env.SESSION_ID || "",  // PUT SESSION ID HERE 
   errorChat : process.env.ERROR_CHAT || "",
@@ -84,7 +84,7 @@ module.exports = {
 
   aitts_Voice_Id : process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "private",
+  WORKTYPE: process.env.WORKTYPE||process.env.MODE || "public",
   LANG: process.env.THEME ? process.env.THEME.toUpperCase() : "ADAM",
 
 
